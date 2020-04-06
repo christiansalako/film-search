@@ -2,7 +2,7 @@ const results = document.querySelector("#results");
 
 
   const searchMovies = (word) => {
-    fetch(`http://www.omdbapi.com/?s=${word}&apikey=adf1f2d7`)
+    fetch(`https://www.omdbapi.com/?s=${word}&apikey=adf1f2d7`)
       .then(response => response.json())
       .then((data) => {
         data.Search.forEach((movie) => {
