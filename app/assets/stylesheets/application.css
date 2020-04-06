@@ -14,7 +14,7 @@
  *= require_self
  */
 /*@import "pages";*/
-@import "bootstrap/scss/bootstrap";*/
+/*@import "bootstrap/scss/bootstrap";*/
 
  #search-movies {
   margin: 20px;
