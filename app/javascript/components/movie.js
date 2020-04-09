@@ -6,7 +6,7 @@ const results = document.querySelector("#results");
       .then(response => response.json())
       .then((data) => {
         data.Search.forEach((movie) => {
-          const newMovie = `<li>
+          const newMovie = `<li class='col'>
             <img src="${movie.Poster}" height="200" />
           </li>`
           results.insertAdjacentHTML('beforeend', newMovie)

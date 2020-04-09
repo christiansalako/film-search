@@ -8,6 +8,8 @@ h3 {
 }
 #results li {
   cursor: grab;
+
+
 }
 
 #results li:active {
@@ -23,5 +25,26 @@ h3 {
 #search-movies {
   margin: 20px;
  }
+
+
+.col{
+  margin: 10px;
+}
+
+div.text-center {
+  margin: 0px 10px 0px 10px;
+
+}
+
+@media (max-width: 580px) {
+  #help{
+   position: relative;
+   left: 200px;
+   top : 18px;
+  }
+}
+
+
+
 
 
